@@ -5,12 +5,12 @@ Scapy Version 2.4.3 is use to extract features form the wireless traffic payload
 The code is tested on Python 3.6.8 at the time of creation. 
 Airodump-ng 1.2 rc4 is used to collect the wireless traffic in monitoring mode with help of airmon-ng. For more detail please visit http://www.aircrack-ng.org
 
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 The code is wirtten in one of its simplest and efficent way with help of python based scapy program. Scapy features in-built functions which is handy and 
 helpful to analyze the network communication packets. 
 
 SETUP
-
+###############################################################################################
 Aircrack-ng package must be installed on the system before we start to collect (sniff) wrieless packet. A monitoring mode enabled wireless network adaptor must be instlled 
 on sniffing device. 
 
@@ -19,7 +19,7 @@ OPERTING SYSTEM (OS)
 Ubuntu 18.04.2 LTS Linux 4.15.0-72-generic 
 
 HANDY COMMANDS
-
+###############################################################################################
 List Wireless enabled interface
 $ iwconfig 
 
